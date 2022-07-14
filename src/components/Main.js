@@ -68,9 +68,9 @@ export default function Main(){
          <Button>DESENVOLVIMENTO WEB</Button>
          <Button>CIÊNCIAS DA COMPUTAÇÃO</Button>      
        
-         <a href="https://github.com/JoyAssis"><Icon src={git} alt="github" /></a>
-         <a href="https://www.linkedin.com/in/joy-assis-31a100179/"><Icon src={linkedin} alt="linkedin" /></a>
-         <a href="https://www.instagram.com/imjoyassis/"><Icon src={ig} alt="instagram" /></a>
+         <a href="https://github.com/JoyAssis" target="_blank"><Icon src={git} alt="github" /></a>
+         <a href="https://www.linkedin.com/in/joy-assis-31a100179/" target="_blank"><Icon src={linkedin} alt="linkedin" /></a>
+         <a href="https://www.instagram.com/imjoyassis/" target="_blank"><Icon src={ig} alt="instagram" /></a>
        </Btn>
        <Name>
          <img src={nome} alt="nome" />
