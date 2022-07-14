@@ -2,18 +2,17 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Container = styled.div`
-border: solid;
 display: flex;
  nav{
     width:100%;
     display: flex;
-    border: solid yellow;
+    margin-top:2%;
  }
  nav ul{
     display: flex;
     width:50vw;
-    justify-content: space-evenly;
-    border:solid;
+    margin-left: 50%;
+    justify-content: space-evenly;  
  }
  nav li{
     list-style:none;
@@ -34,7 +33,7 @@ export default function Header(){
             <ul>
                 <li>Início</li>
                 <li>Portifólio</li>
-                <li>Contato</li>
+                <a href="https://contatojoy.carrd.co/" style={{textDecoration:"none"}}><li>Contato</li></a>
             </ul>
         </nav>
         </Container>
