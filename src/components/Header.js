@@ -33,7 +33,7 @@ export default function Header(){
             <ul>
                 <li>Início</li>
                 <li>Portifólio</li>
-                <a href="https://contatojoy.carrd.co/" target="_blank" style={{textDecoration:"none"}}><li>Contato</li></a>
+                <a href="https://contatojoy.carrd.co/" target="_blank" rel="noreferrer" style={{textDecoration:"none"}}><li>Contato</li></a>
             </ul>
         </nav>
         </Container>
