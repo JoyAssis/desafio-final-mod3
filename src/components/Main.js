@@ -10,6 +10,9 @@ width: 100%;
 height: 92%;
 justify-content: center;
 display:flex;
+@media(min-width: 319px) and (max-width: 801px){
+  flex-direction: column-reverse;
+ }
 `
 const Name = styled.div`
 width: 50vw;
@@ -19,6 +22,14 @@ margin-left: 8%;
  img{
     width: 50vw;
     height: 70vh;
+    @media(min-width: 319px) and (max-width: 801px){
+      width: 60vw;
+      height: 30vh;
+    }
+ }
+ @media(min-width: 319px) and (max-width: 801px){
+  margin-top: 15%;
+  margin-left: 20%;
  }
 `
 const Btn = styled.div`
@@ -27,6 +38,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-left: 20%;
+@media(min-width: 319px) and (max-width: 801px){
+  margin-left:0;
+  margin-bottom: 10vh;
+}
 `
 const Button = styled.button`
 width: 20vw;
@@ -47,6 +62,9 @@ color: #d7bcfd;
   transform: translateY(5%);
   color: black;
 }
+ @media(min-width: 319px) and (max-width: 801px){
+  width:50vw;
+ } 
 `
 const Icon =styled.img`
 width:25px;

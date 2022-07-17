@@ -3,6 +3,7 @@ import { Component } from 'react';
 import styled from 'styled-components';
 import {createGlobalStyle} from "styled-components"
 import Fundo from './components/img/fundo.png'
+import FundoMedia from './components/img/fundomedia.jpeg'
 import Header from './components/Header'
 import Main from './components/Main'
 
@@ -20,6 +21,12 @@ const Container = styled.div`
  width: 100vw;
  height: 100vh;
  background-size:1370px 700px;
+ @media(min-width: 319px) and (max-width: 801px){
+  background-image: url(${FundoMedia});
+  background-size:cover;
+  background-repeate:no-repeat;
+
+ }
 `
 
 class App extends Component{
